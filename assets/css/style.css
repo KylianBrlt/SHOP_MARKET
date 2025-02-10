@@ -1,0 +1,52 @@
+/* Effet hover : agrandir l'image légèrement */
+.img-hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.colorbackground {
+    background-color: #0A001B;
+}
+
+.colorbutton{
+    background-color: #9e829c;
+    color: #F0EFF4;
+}
+
+/* Ajoutez ce CSS à votre fichier CSS ou dans une balise <style> dans votre HTML */
+.navbar-toggler-icon {
+    filter: invert(1) grayscale(100%) brightness(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(0.9) contrast(1.1);
+}
+
+
+ul.navbar-nav.ms-auto {
+    text-align: center;
+    color: #F0EFF4;
+}
+
+a.nav-link.active.colortexthover {
+    color: #F0EFF4;
+}
+
+a.nav-link.colortexthover {
+    color: #F0EFF4;
+}
+
+a.navbar-brand.bs-light.colortexthover {
+    color: #F0EFF4;
+}
+
+article.grid.text-center {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+section.container.mt-5.colortexthover {
+    text-align: center;
+    color: #F0EFF4;
+}
+
+main{
+    min-height: 85vh;
+}
